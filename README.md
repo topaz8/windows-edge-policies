@@ -14,6 +14,8 @@ Make sure that you back up your registry. To do that open Powershell as Administ
 reg export HKLM ${env:USERPROFILE}\Desktop\before_edge_policies_$(Get-Date -Format "yyyyMMdd-HHmmss").reg
 ```
 
+Or open regedit as Administrator, click `Computer` at the top, then click `File -> Export`.
+
 ## Applying policies
 Just double-click the registry files in this repository. It's that simple.
 
