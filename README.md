@@ -24,6 +24,7 @@ Just double-click the registry files in this repository. It's that simple.
 ## Things that aren't working
 Some keys do not seem to work, specifically `VideoCaptureAllowed`, `AudioCaptureAllowed`, `BackgroundModeEnabled`, `EdgeDiscoverEnabled`, `SmartScreenPuaEnabled`, and `DefaultSearchProvider*`. They will be updated if I find a fix or you may create a pull request if you know how to fix them.
 `ExtensionSettings` in `mep.reg` is a `Dictionary` type key for which I don't currently know how to write manually and so it is commented out. [Microsoft-Edge-Policies](https://github.com/TommyTran732/Microsoft-Edge-Policies) uses this key to configure some settings for the uBlock Origin Lite extension. Please create a pull request if you know how to write this.
+Some permission settings appear to not have associated keys for them, so if you like to block everything you will have to visit the permission page and unfortunately will have to manually toggle them.
 
 ## Credits
 A big thanks to [HotCakeX](https://github.com/HotCakeX) for [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) and [Tommy](https://github.com/TommyTran732) for [Microsoft-Edge-Policies](https://github.com/TommyTran732/Microsoft-Edge-Policies).
