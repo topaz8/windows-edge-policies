@@ -18,7 +18,6 @@ Windows Registry Editor Version 5.00
 "CACertificateManagementAllowed"=dword:00000002
 "CAPlatformIntegrationEnabled"=dword:00000000
 "AutomaticFullscreenBlockedForUrls"="*"
-"CookiesBlockedForUrls"="ntp.msn.com"
 "DefaultAutomaticDownloadsSetting"=dword:00000002
 "DefaultGeolocationSetting"=dword:00000002
 "DefaultInsecureContentSetting"=dword:00000002
@@ -145,3 +144,5 @@ Windows Registry Editor Version 5.00
 "WebRtcLocalhostIpHandling"="DisableNonProxiedUdp"
 "VisualSearchEnabled"=dword:00000000
 "WalletDonationEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\CookiesBlockedForUrls]
+"1"="ntp.msn.com"
