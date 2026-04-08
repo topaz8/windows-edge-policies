@@ -13,3 +13,6 @@ Windows Registry Editor Version 5.00
 "SmartScreenPuaEnabled"=dword:00000001
 "DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="Google"
+"DefaultAutomaticDownloadsSetting"=dword:00000002
+"DefaultFileSystemReadGuardSetting"=dword:00000002
+"DefaultFileSystemWriteGuardSetting"=dword:00000002

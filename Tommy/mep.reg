@@ -4,42 +4,46 @@ Windows Registry Editor Version 5.00
 ; https://github.com/TommyTran732/Microsoft-Edge-Policies
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
-; recommended corporate settings as per MEP README
+;;
+; recommended corporate settings as per Microsoft Edge Policies README
+;;
 "DeveloperToolsAvailability"=dword:00000002
 "DefaultWebUsbGuardSetting"=dword:00000002
 "DefaultClipboardSetting"=dword:00000002
 "DefaultJavaScriptJitSetting"=dword:00000002
 "SSLErrorOverrideAllowed"=dword:00000000
-;"Disable3DAPIs"=dword:00000000 ; keep current MEP policy
+;"Disable3DAPIs"=dword:00000000 ; Tommy -- "Consider setting to true. Some websites will not work without WebGL, so whether to do this highly depends on your organization." (2026-04-08)
 "SmartScreenEnabled"=dword:00000000
+"ScarewareBlockerProtectionEnabled"=dword:00000000
 "TyposquattingCheckerEnabled"=dword:00000000
+;;
 ; converted from Microsoft-Edge-Policies/Linux/managed.json
+;;
 "EnableMediaRouter"=dword:00000000
 "CACertificateManagementAllowed"=dword:00000002
 "CAPlatformIntegrationEnabled"=dword:00000000
-"AutomaticFullscreenBlockedForUrls"="*"
-"DefaultAutomaticDownloadsSetting"=dword:00000002
+;"DefaultAutomaticDownloadsSetting"=dword:00000002 ; missing from Microsoft-Edge-Policies (2026-04-08)
 "DefaultGeolocationSetting"=dword:00000002
 "DefaultInsecureContentSetting"=dword:00000002
 "DefaultCookiesSetting"=dword:00000004
-"DefaultThirdPartyStoragePartitioningSetting"=dword:00000001
-"DefaultFileSystemReadGuardSetting"=dword:00000002
-"DefaultFileSystemWriteGuardSetting"=dword:00000002
+;"DefaultThirdPartyStoragePartitioningSetting"=dword:00000001 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
+;"DefaultFileSystemReadGuardSetting"=dword:00000002 ; Tommy -- "Jitsi needs this to work, so I am not setting it." (2026-04-08)
+;"DefaultFileSystemWriteGuardSetting"=dword:00000002 ; Tommy -- "Jitsi needs this to work, so I am not setting it."  (2026-04-08)
 "DefaultWebBluetoothGuardSetting"=dword:00000002
 "DefaultWebHidGuardSetting"=dword:00000002
 "DefaultWindowManagementSetting"=dword:00000002
 "ShowPDFDefaultRecommendationsEnabled"=dword:00000000
 "SpotlightExperiencesAndRecommendationsEnabled"=dword:00000000
 "FeatureFlagOverridesControl"=dword:00000001
-"ExtensionInstallBlocklist"="*"
-; key "ExtensionSettings" omitted, please pr
-; if you know how to define this key
-"GamerModeEnabled"=dword:00000000
+;"GamerModeEnabled"=dword:00000000 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "GenAILocalFoundationalModelSettings"=dword:00000001
+"EdgeOpenExternalLinksWithAppSpecifiedProfile"=dword:00000000
+"GuidedSwitchEnabled"=dword:00000000
 "ProactiveAuthWorkflowEnabled"=dword:00000000
+"SeamlessWebToBrowserSignInEnabled"=dword:00000000
+"WebToBrowserSignInEnabled"=dword:00000000
 "EdgeManagementEnabled"=dword:00000000
 "MAMEnabled"=dword:00000000
-"NativeMessagingBlocklist"="*"
 "PasswordManagerEnabled"=dword:00000000
 "PinBrowserEssentialsToolbarButton"=dword:00000000
 "InsecurePrivateNetworkRequestsAllowed"=dword:00000000
@@ -53,9 +57,13 @@ Windows Registry Editor Version 5.00
 "NewTabPageQuickLinksEnabled"=dword:00000000
 "NewTabPageSearchBox"="redirect"
 "EdgeWorkspacesEnabled"=dword:00000000
+"EdgeSafeHostingExtensionEnabled"=dword:00000000
 "AIGenThemesEnabled"=dword:00000000
 "AdditionalSearchBoxEnabled"=dword:00000000
+"AdditionalDnsQueryTypesEnabled"=dword:00000000
+"AddressBarTrendingSuggestEnabled"=dword:00000000
 "AccessibilityImageLabelsEnabled"=dword:00000000
+"AddressBarWorkSearchResultsEnabled"=dword:00000000
 "AdsSettingForIntrusiveAdsSites"=dword:00000002
 "AllowBackForwardCacheForCacheControlNoStorePageEnabled"=dword:00000000
 "AlternateErrorPagesEnabled"=dword:00000000
@@ -64,7 +72,7 @@ Windows Registry Editor Version 5.00
 "AutofillAddressEnabled"=dword:00000000
 "AutofillCreditCardEnabled"=dword:00000000
 "AutofillMembershipsEnabled"=dword:00000000
-"AutomaticHttpsDefault"=dword:00000002
+;"AutomaticHttpsDefault"=dword:00000002 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "BlockThirdPartyCookies"=dword:00000001
 "BrowserCodeIntegritySetting"=dword:00000002
 "BrowserNetworkTimeQueriesEnabled"=dword:00000000
@@ -75,14 +83,17 @@ Windows Registry Editor Version 5.00
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultSensorsSetting"=dword:00000002
 "DefaultSerialGuardSetting"=dword:00000002
+"ClearCachedImagesAndFilesOnExit"=dword:00000001
 "ConfigureDoNotTrack"=dword:00000001
 "DefaultShareAdditionalOSRegionSetting"=dword:00000002
 "DiagnosticData"=dword:00000000
-"Disable3DAPIs"=dword:00000001
 "DynamicCodeSettings"=dword:00000001
 "Edge3PSerpTelemetryEnabled"=dword:00000000
+"EdgeAutofillMlEnabled"=dword:00000000
 "EdgeCollectionsEnabled"=dword:00000000
 "EdgeEDropEnabled"=dword:00000000
+"EdgeHistoryAISearchEnabled"=dword:00000000
+"EdgeEntraCopilotPageContext"=dword:00000000
 "EdgeShoppingAssistantEnabled"=dword:00000000
 "EdgeWalletCheckoutEnabled"=dword:00000000
 "EdgeWalletEtreeEnabled"=dword:00000000
@@ -108,34 +119,45 @@ Windows Registry Editor Version 5.00
 "ImportShortcuts"=dword:00000000
 "ImportStartupPageSettings"=dword:00000000
 "HideFirstRunExperience"=dword:00000001
+"HttpsOnlyMode"="force_enabled"
 "HubsSidebarEnabled"=dword:00000000
 "InAppSupportEnabled"=dword:00000000
+"Microsoft365CopilotChatIconEnabled"=dword:00000000
 "MicrosoftEdgeInsiderPromotionEnabled"=dword:00000000
 "MicrosoftEditorProofingEnabled"=dword:00000000
 "NetworkPredictionOptions"=dword:00000002
 "NetworkServiceSandboxEnabled"=dword:00000001
 "NewPDFReaderEnabled"=dword:00000000
+"NewPDFReaderWebView2List"=dword:00000000
 "NonRemovableProfileEnabled"=dword:00000000
+"OriginKeyedProcessesEnabled"=dword:00000001
 "PDFSecureMode"=dword:00000001
-"PromotionalTabsEnabled"=dword:00000000
+;"PromotionalTabsEnabled"=dword:00000000 ; missing from Microsoft-Edge-Policies (deprecated) (2026-04-08)
 "PaymentMethodQueryEnabled"=dword:00000000
 "PersonalizationReportingEnabled"=dword:00000000
 "PersonalizeTopSitesInCustomizeSidebarEnabled"=dword:00000000
 "QuickSearchShowMiniMenu"=dword:00000000
 "QuickViewOfficeFilesEnabled"=dword:00000000
-"RSAKeyUsageForLocalAnchorsEnabled"=dword:00000001
+;"RSAKeyUsageForLocalAnchorsEnabled"=dword:00000001 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "ReadAloudEnabled"=dword:00000000
 "RemoteDebuggingAllowed"=dword:00000000
 "RelatedMatchesCloudServiceEnabled"=dword:00000000
 "ResolveNavigationErrorsUseWebService"=dword:00000000
+"RestrictCoreSharingOnRenderer"=dword:00000001
+"ScarewareBlockerSendDetectedSitesToSmartScreenEnabled"=dword:00000001
+"ScarewareBlockerBlocksDetectedSitesEnabled"=dword:00000001
 "SearchSuggestEnabled"=dword:00000000
+"ShareBrowsingHistoryWithCopilotSearchAllowed"=dword:00000000
 "ShowAcrobatSubscriptionButton"=dword:00000000
 "ShowMicrosoftRewards"=dword:00000000
 "ShowRecommendationsEnabled"=dword:00000000
+"SilentPrintingEnabled"=dword:00000000
 "SitePerProcess"=dword:00000001
 "SpeechRecognitionEnabled"=dword:00000000
+"StaticStorageQuotaEnabled"=dword:00000001
 "SuperDragDropEnabled"=dword:00000000
 "SyncDisabled"=dword:00000001
+"TLS13EarlyDataEnabled"=dword:00000000
 "TabServicesEnabled"=dword:00000000
 "TextPredictionEnabled"=dword:00000000
 "TrackingPrevention"=dword:00000003
@@ -146,3 +168,20 @@ Windows Registry Editor Version 5.00
 "WalletDonationEnabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\CookiesBlockedForUrls]
 "1"="ntp.msn.com"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutomaticFullscreenBlockedForUrls]
+"1"="*"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallBlocklist]
+"1"="*"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\NativeMessagingBlocklist]
+"1"="*"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\LocalNetworkBlockedForUrls]
+"1"="*"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\LoopbackNetworkBlockedForUrls]
+"1"="*"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\TLSCipherSuiteDenyList]
+"1"="0xc013"
+"2"="0xc014"
+"3"="0x009c"
+"4"="0x009d"
+"5"="0x002f"
+"6"="0x0035"
