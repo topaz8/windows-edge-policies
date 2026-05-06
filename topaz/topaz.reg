@@ -16,5 +16,5 @@ Windows Registry Editor Version 5.00
 ;"DefaultAutomaticDownloadsSetting"=dword:00000002
 "DefaultFileSystemReadGuardSetting"=dword:00000002
 "DefaultFileSystemWriteGuardSetting"=dword:00000002
-"DefaultCookiesSetting"=dword:00000002
+"DefaultCookiesSetting"=dword:00000001
 "EditFavoritesEnabled"=dword:00000001
