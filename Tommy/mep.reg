@@ -48,6 +48,7 @@ Windows Registry Editor Version 5.00
 "PinBrowserEssentialsToolbarButton"=dword:00000000
 "InsecurePrivateNetworkRequestsAllowed"=dword:00000000
 "PrivateNetworkAccessRestrictionsEnabled"=dword:00000000
+"ProtectedContentIdentifiersAllowed"=dword:00000000
 "RelatedWebsiteSetsEnabled"=dword:00000000
 "NewTabPageAllowedBackgroundTypes"=dword:00000003
 "NewTabPageAppLauncherEnabled"=dword:00000000
