@@ -66,6 +66,7 @@ Windows Registry Editor Version 5.00
 "AccessibilityImageLabelsEnabled"=dword:00000000
 "AddressBarWorkSearchResultsEnabled"=dword:00000000
 "AdsSettingForIntrusiveAdsSites"=dword:00000002
+"AllowBrowsingWithCopilot"=dword:00000000
 "AllowBackForwardCacheForCacheControlNoStorePageEnabled"=dword:00000000
 "AlternateErrorPagesEnabled"=dword:00000000
 "AudioSandboxEnabled"=dword:00000001
@@ -81,6 +82,7 @@ Windows Registry Editor Version 5.00
 "ComposeInlineEnabled"=dword:00000000
 "ConfigureOnlineTextToSpeech"=dword:00000000
 "ConfigureShare"=dword:00000001
+"CopilotNewTabPageEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultSensorsSetting"=dword:00000002
 "DefaultSerialGuardSetting"=dword:00000002
@@ -123,6 +125,7 @@ Windows Registry Editor Version 5.00
 "HttpsOnlyMode"="force_enabled"
 "HubsSidebarEnabled"=dword:00000000
 "InAppSupportEnabled"=dword:00000000
+"M365LinksAutoOpenCopilotEnabled"=dword:00000000
 "Microsoft365CopilotChatIconEnabled"=dword:00000000
 "MicrosoftEdgeInsiderPromotionEnabled"=dword:00000000
 "MicrosoftEditorProofingEnabled"=dword:00000000
