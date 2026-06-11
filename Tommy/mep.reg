@@ -26,6 +26,7 @@ Windows Registry Editor Version 5.00
 "DefaultGeolocationSetting"=dword:00000002
 "DefaultInsecureContentSetting"=dword:00000002
 "DefaultCookiesSetting"=dword:00000004
+"DefaultLocalFontsSetting"=dword:00000002
 ;"DefaultThirdPartyStoragePartitioningSetting"=dword:00000001 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 ;"DefaultFileSystemReadGuardSetting"=dword:00000002 ; Tommy -- "Jitsi needs this to work, so I am not setting it." (2026-04-08)
 ;"DefaultFileSystemWriteGuardSetting"=dword:00000002 ; Tommy -- "Jitsi needs this to work, so I am not setting it."  (2026-04-08)
@@ -82,6 +83,7 @@ Windows Registry Editor Version 5.00
 "ComposeInlineEnabled"=dword:00000000
 "ConfigureOnlineTextToSpeech"=dword:00000000
 "ConfigureShare"=dword:00000001
+"CopilotAddressBarSuggestionsEnabled"=dword:00000000
 "CopilotNewTabPageEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultSensorsSetting"=dword:00000002
