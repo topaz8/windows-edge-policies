@@ -35,6 +35,8 @@ Windows Registry Editor Version 5.00
 "DefaultWindowManagementSetting"=dword:00000002
 "ShowPDFDefaultRecommendationsEnabled"=dword:00000000
 "SpotlightExperiencesAndRecommendationsEnabled"=dword:00000000
+"CopilotPageContext"=dword:00000000
+"EdgeCopilotEnabled"=dword:00000000
 "FeatureFlagOverridesControl"=dword:00000001
 ;"GamerModeEnabled"=dword:00000000 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "GenAILocalFoundationalModelSettings"=dword:00000001
