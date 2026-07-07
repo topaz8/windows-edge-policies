@@ -134,7 +134,7 @@ Windows Registry Editor Version 5.00
 "MicrosoftEdgeInsiderPromotionEnabled"=dword:00000000
 "MicrosoftEditorProofingEnabled"=dword:00000000
 "NetworkPredictionOptions"=dword:00000002
-"NetworkServiceSandboxEnabled"=dword:00000001
+;"NetworkServiceSandboxEnabled"=dword:00000001 ; Tommy -- "Consider setting NetworkServiceSandboxEnabled to true. [but] This setting causes Edge (or any Chromium browser for that matter) to occasionally lose cookies, so it is not enabled in my policies for now." (2026-07-07)
 "NewPDFReaderEnabled"=dword:00000000
 "NewPDFReaderWebView2List"=dword:00000000
 "NonRemovableProfileEnabled"=dword:00000000
