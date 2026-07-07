@@ -6,7 +6,7 @@ Windows Registry Editor Version 5.00
 "ExtensionManifestV2Availability"=dword:00000001
 "VideoCaptureAllowed"=dword:00000000
 "AudioCaptureAllowed"=dword:00000000
-;"DefaultNotificationsSetting"=dword:00000002
+"DefaultNotificationsSetting"=dword:00000002
 ;"BackgroundModeEnabled"=dword:00000000
 "SmartScreenEnabled"=dword:00000001
 "SmartScreenPuaEnabled"=dword:00000001
@@ -19,6 +19,36 @@ Windows Registry Editor Version 5.00
 "DefaultCookiesSetting"=dword:00000001
 "EditFavoritesEnabled"=dword:00000001
 "NetworkServiceSandboxEnabled"=dword:00000001
+"DnsOverHttpsMode"="automatic"
+"UserFeedbackAllowed"=dword:00000000
+"BuiltInAIAPIsEnabled"=dword:00000000
+;"DefaultBrowserSettingEnabled"=dword:00000001
+"StartupBoostEnabled"=dword:00000000
+;"DeveloperToolsAvailability"=dword:00000001
+"SSLErrorOverrideAllowed"=dword:00000001
+"ConfigureShare"=dword:00000000
+"DefaultIdleDetectionSetting"=dword:00000002
+"DefaultPopupsSetting"=dword:00000002
+"UrlDiagnosticDataEnabled"=dword:00000000
+;"FullscreenAllowed"=dword:00000001
+"LaunchEdgeOnWindowsStartupEnabled"=dword:00000000
+"MSAWebSiteSSOUsingThisProfileAllowed"=dword:00000000
+"SearchInSidebarEnabled"=dword:00000000
+"SharedLinksEnabled"=dword:00000000
+"ShowHistoryThumbnails"=dword:00000000
+"SpellcheckEnabled"=dword:00000000
+"StandaloneHubsSidebarEnabled"=dword:00000000
+"NewTabPagePrerenderEnabled"=dword:00000000
+"AutoplayAllowed"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
+"BrowserGuestModeEnabled"=dword:00000000
+"ClickOnceEnabled"=dword:00000000
+"CredentialProviderPromoEnabled"=dword:00000000
+"M365AuthPopupsInWorkEnabled"=dword:00000000
+"PreferSlowCiphers"="cnsa"
+"PreferSlowKexAlgorithms"="cnsa2"
+"RendererAppContainerEnabled"=dword:00000001
+"BasicAuthOverHttpEnabled"=dword:00000000
 
 ; makes new tab page entirely blank
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\JavaScriptBlockedForUrls]
