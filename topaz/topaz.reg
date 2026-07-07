@@ -19,3 +19,7 @@ Windows Registry Editor Version 5.00
 "DefaultCookiesSetting"=dword:00000001
 "EditFavoritesEnabled"=dword:00000001
 "NetworkServiceSandboxEnabled"=dword:00000001
+
+; makes new tab page entirely blank
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\JavaScriptBlockedForUrls]
+"1"="ntp.msn.com"
