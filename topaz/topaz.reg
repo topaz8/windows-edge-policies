@@ -7,12 +7,12 @@ Windows Registry Editor Version 5.00
 "VideoCaptureAllowed"=dword:00000000
 "AudioCaptureAllowed"=dword:00000000
 "DefaultNotificationsSetting"=dword:00000002
-;"BackgroundModeEnabled"=dword:00000000
 "SmartScreenEnabled"=dword:00000001
 "SmartScreenPuaEnabled"=dword:00000001
 "DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="Google"
 "DefaultSearchProviderSearchURL"="https://www.google.com/search?q={searchTerms}"
+"ManagedSearchEngines"="[{\"allow_search_engine_discovery\":false},{\"is_default\":true,\"keyword\":\"google.com\",\"name\":\"Google\",\"search_url\":\"https://www.google.com/search?q={searchTerms}\",\"suggest_url\":\"https://www.google.com/search?q={searchTerms}\"}]"
 ;"DefaultAutomaticDownloadsSetting"=dword:00000002
 "DefaultFileSystemReadGuardSetting"=dword:00000002
 "DefaultFileSystemWriteGuardSetting"=dword:00000002
