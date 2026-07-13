@@ -22,7 +22,7 @@ Just double-click the registry files in this repository. It's that simple.
 > Remember that you can always overwrite keys should you wish to write your own policy, so basically you can use Tommy's policy as a base.
 
 ## Things that aren't working
-Some keys do not seem to work, specifically `VideoCaptureAllowed`, `AudioCaptureAllowed`, and `SmartScreenPuaEnabled`. They will be updated if I find a fix or you may create a pull request if you know how to fix them.
+Some keys do not seem to work, specifically `VideoCaptureAllowed` and `AudioCaptureAllowed`. They will be updated if I find a fix or you may create a pull request if you know how to fix them.
 
 Some permission settings appear to not have associated keys for them, so if you like to block everything you will have to visit the permission page and unfortunately will have to manually toggle them.
 

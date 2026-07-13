@@ -7,8 +7,7 @@ Windows Registry Editor Version 5.00
 "VideoCaptureAllowed"=dword:00000000
 "AudioCaptureAllowed"=dword:00000000
 "DefaultNotificationsSetting"=dword:00000002
-"SmartScreenEnabled"=dword:00000001
-"SmartScreenPuaEnabled"=dword:00000001
+"SmartScreenEnabled"=dword:00000000
 "DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="Google"
 "DefaultSearchProviderSearchURL"="https://www.google.com/search?q={searchTerms}"
