@@ -7,7 +7,6 @@ Windows Registry Editor Version 5.00
 "VideoCaptureAllowed"=dword:00000000
 "AudioCaptureAllowed"=dword:00000000
 "DefaultNotificationsSetting"=dword:00000002
-"SmartScreenEnabled"=dword:00000000
 "DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="Google"
 "DefaultSearchProviderSearchURL"="https://www.google.com/search?q={searchTerms}"
@@ -15,6 +14,13 @@ Windows Registry Editor Version 5.00
 ;"DefaultAutomaticDownloadsSetting"=dword:00000002
 "DefaultFileSystemReadGuardSetting"=dword:00000002
 "DefaultFileSystemWriteGuardSetting"=dword:00000002
+"DefaultWebUsbGuardSetting"=dword:00000002
+"DefaultClipboardSetting"=dword:00000002
+"DefaultJavaScriptJitSetting"=dword:00000002
+"Disable3DAPIs"=dword:00000001
+"SmartScreenEnabled"=dword:00000000
+"ScarewareBlockerProtectionEnabled"=dword:00000000
+"TyposquattingCheckerEnabled"=dword:00000000
 "DefaultCookiesSetting"=dword:00000001
 "EditFavoritesEnabled"=dword:00000001
 "NetworkServiceSandboxEnabled"=dword:00000001
@@ -23,7 +29,7 @@ Windows Registry Editor Version 5.00
 "BuiltInAIAPIsEnabled"=dword:00000000
 ;"DefaultBrowserSettingEnabled"=dword:00000001
 "StartupBoostEnabled"=dword:00000000
-;"DeveloperToolsAvailability"=dword:00000001
+"DeveloperToolsAvailability"=dword:00000002
 "SSLErrorOverrideAllowed"=dword:00000001
 "ConfigureShare"=dword:00000000
 "DefaultIdleDetectionSetting"=dword:00000002
