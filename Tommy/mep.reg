@@ -42,6 +42,7 @@ Windows Registry Editor Version 5.00
 "GenAILocalFoundationalModelSettings"=dword:00000001
 "EdgeOpenExternalLinksWithAppSpecifiedProfile"=dword:00000000
 "GuidedSwitchEnabled"=dword:00000000
+"NonMicrosoftAccountSignInEnabled"=dword:00000000
 "ProactiveAuthWorkflowEnabled"=dword:00000000
 "SeamlessWebToBrowserSignInEnabled"=dword:00000000
 "WebToBrowserSignInEnabled"=dword:00000000
