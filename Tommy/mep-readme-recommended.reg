@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+; these policies are suggested to be set in TommyTran732/Microsoft-Edge-Policies's README
+; https://github.com/TommyTran732/Microsoft-Edge-Policies/blob/master/README.md
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"DeveloperToolsAvailability"=dword:00000002
+"DefaultWebUsbGuardSetting"=dword:00000002
+"DefaultClipboardSetting"=dword:00000002
+"DefaultJavaScriptJitSetting"=dword:00000002
+"DefaultAutomaticDownloadsSetting"=dword:00000002
+"SSLErrorOverrideAllowed"=dword:00000000
+"Disable3DAPIs"=dword:00000001
+"DefaultFileSystemReadGuardSetting"=dword:00000002
+"DefaultFileSystemWriteGuardSetting"=dword:00000002
+"NetworkServiceSandboxEnabled"=dword:00000001
+"SmartScreenEnabled"=dword:00000000
+"ScarewareBlockerProtectionEnabled"=dword:00000000
+"TyposquattingCheckerEnabled"=dword:00000000
