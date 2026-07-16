@@ -46,6 +46,25 @@ Elaborating on the `AutomaticFullscreenBlockedForUrls` key (as an example):
 "2"="*" ; to block all URLs
 ```
 
+Putting it together, our example file should look like this:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"ExtensionManifestV2Availability"=dword:00000000 ; semicolon starts a comment
+"VideoCaptureAllowed"=dword:00000001 ; next few values we change to be different
+"AudioCaptureAllowed"=dword:00000001
+"DefaultNotificationsSetting"=dword:00000001
+"WhateverVal"="this would be how to define a string"
+"DefaultSearchProviderEnabled"=- ; this unsets a value to its default behavior
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\JavaScriptBlockedForUrls]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutomaticFullscreenBlockedForUrls]
+"1"="https://www.example.com"
+"2"="*" ; to block all URLs
+```
+
 ### Dictionaries
 Dictionaries e.g. `ManagedSearchEngines` and `ManagedConfigurationPerOrigin` take JSON formatted data. When writing this in a reg file, it needs to be condensed into one line with spaces removed and double quotes in the JSON data escaped:
 ```
