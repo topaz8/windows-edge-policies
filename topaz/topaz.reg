@@ -54,6 +54,8 @@ Windows Registry Editor Version 5.00
 "PreferSlowKexAlgorithms"="cnsa2"
 "RendererAppContainerEnabled"=dword:00000001
 "BasicAuthOverHttpEnabled"=dword:00000000
+"BlockExternalExtensions"=dword:00000001
+"DisableScreenshots"=dword:00000001
 
 ; makes new tab page entirely blank
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\JavaScriptBlockedForUrls]
