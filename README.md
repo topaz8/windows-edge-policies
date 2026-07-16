@@ -18,8 +18,7 @@ Or open regedit as Administrator, navigate to `Computer\HKEY_LOCAL_MACHINE\SOFTW
 Just double-click the registry files in this repository. It's that simple.
 
 > [!NOTE]
-> My personal policy is intended to be applied after Tommy's policies. If you wish to use my policy, please look at it first before applying it to see if it fits your needs.
-> Remember that you can always overwrite keys should you wish to write your own policy, so basically you can use Tommy's policy as a base.
+> Tommy's policies are to be applied first. If you wish to use my policy, apply it after Tommy's policies. Please look through mine to see if it fits your needs before applying. You can always edit these policies or create your own, and [here](policy-editing-tips.md) is a resource that explains how you can go about that.
 
 ## Things that aren't working
 Some keys do not seem to work, specifically `VideoCaptureAllowed` and `AudioCaptureAllowed`. They will be updated if I find a fix or you may create a pull request if you know how to fix them.
