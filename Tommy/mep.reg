@@ -38,8 +38,8 @@ Windows Registry Editor Version 5.00
 "MAMEnabled"=dword:00000000
 "PasswordManagerEnabled"=dword:00000000
 "PinBrowserEssentialsToolbarButton"=dword:00000000
-"InsecurePrivateNetworkRequestsAllowed"=dword:00000000
-"PrivateNetworkAccessRestrictionsEnabled"=dword:00000000
+;"InsecurePrivateNetworkRequestsAllowed"=dword:00000000 ; Tommy -- "Remove obsolete policies" (2026-07-20)
+;"PrivateNetworkAccessRestrictionsEnabled"=dword:00000000 ; Tommy -- "Remove obsolete policies" (2026-07-20)
 "ProtectedContentIdentifiersAllowed"=dword:00000000
 "RelatedWebsiteSetsEnabled"=dword:00000000
 "NewTabPageAllowedBackgroundTypes"=dword:00000003
@@ -52,6 +52,7 @@ Windows Registry Editor Version 5.00
 "EdgeWorkspacesEnabled"=dword:00000000
 "EdgeSafeHostingExtensionEnabled"=dword:00000000
 "AIGenThemesEnabled"=dword:00000000
+"BasicAuthOverHttpEnable"=dword:00000000
 "AdditionalSearchBoxEnabled"=dword:00000000
 "AdditionalDnsQueryTypesEnabled"=dword:00000000
 "AddressBarTrendingSuggestEnabled"=dword:00000000
@@ -131,6 +132,7 @@ Windows Registry Editor Version 5.00
 "PDFSecureMode"=dword:00000001
 ;"PromotionalTabsEnabled"=dword:00000000 ; missing from Microsoft-Edge-Policies (deprecated) (2026-04-08)
 "PaymentMethodQueryEnabled"=dword:00000000
+"WebCaptureEnabled"=dword:00000000
 "PersonalizationReportingEnabled"=dword:00000000
 "PersonalizeTopSitesInCustomizeSidebarEnabled"=dword:00000000
 "QuickSearchShowMiniMenu"=dword:00000000
@@ -146,6 +148,7 @@ Windows Registry Editor Version 5.00
 "SearchSuggestEnabled"=dword:00000000
 "ShareBrowsingHistoryWithCopilotSearchAllowed"=dword:00000000
 "ShowAcrobatSubscriptionButton"=dword:00000000
+"ShowHistoryThumbnails"=dword:00000000
 "ShowMicrosoftRewards"=dword:00000000
 "ShowRecommendationsEnabled"=dword:00000000
 "SilentPrintingEnabled"=dword:00000000
