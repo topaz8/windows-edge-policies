@@ -11,7 +11,7 @@ Windows Registry Editor Version 5.00
 "DefaultSearchProviderName"="Google"
 "DefaultSearchProviderSearchURL"="https://www.google.com/search?q={searchTerms}"
 "ManagedSearchEngines"="[{\"allow_search_engine_discovery\":false},{\"is_default\":true,\"keyword\":\"google.com\",\"name\":\"Google\",\"search_url\":\"https://www.google.com/search?q={searchTerms}\",\"suggest_url\":\"https://www.google.com/search?q={searchTerms}\"}]"
-;"DefaultAutomaticDownloadsSetting"=dword:00000002
+"DefaultAutomaticDownloadsSetting"=-
 "DefaultFileSystemReadGuardSetting"=dword:00000002
 "DefaultFileSystemWriteGuardSetting"=dword:00000002
 "DefaultWebUsbGuardSetting"=dword:00000002
