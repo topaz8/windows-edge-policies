@@ -40,7 +40,7 @@ Windows Registry Editor Version 5.00
 "MSAWebSiteSSOUsingThisProfileAllowed"=dword:00000000
 "SearchInSidebarEnabled"=dword:00000000
 "SharedLinksEnabled"=dword:00000000
-"ShowHistoryThumbnails"=dword:00000000
+;"ShowHistoryThumbnails"=dword:00000000 ; removed from edge policies entirely, its page doesn't exist
 "SpellcheckEnabled"=dword:00000000
 "StandaloneHubsSidebarEnabled"=dword:00000000
 "NewTabPagePrerenderEnabled"=dword:00000000
@@ -48,7 +48,7 @@ Windows Registry Editor Version 5.00
 "BackgroundModeEnabled"=dword:00000000
 "BrowserGuestModeEnabled"=dword:00000000
 "ClickOnceEnabled"=dword:00000000
-"CredentialProviderPromoEnabled"=dword:00000000
+;"CredentialProviderPromoEnabled"=dword:00000000 ; not supported on windows
 "M365AuthPopupsInWorkEnabled"=dword:00000000
 "PreferSlowCiphers"="cnsa"
 "PreferSlowKexAlgorithms"="cnsa2"

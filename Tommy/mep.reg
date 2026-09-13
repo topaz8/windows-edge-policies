@@ -25,7 +25,7 @@ Windows Registry Editor Version 5.00
 "ShowPDFDefaultRecommendationsEnabled"=dword:00000000
 "SpotlightExperiencesAndRecommendationsEnabled"=dword:00000000
 "CopilotPageContext"=dword:00000000
-"EdgeCopilotEnabled"=dword:00000000
+;"EdgeCopilotEnabled"=dword:00000000 ; not supported on windows
 "FeatureFlagOverridesControl"=dword:00000001
 ;"GamerModeEnabled"=dword:00000000 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "GenAILocalFoundationalModelSettings"=dword:00000001
@@ -42,7 +42,7 @@ Windows Registry Editor Version 5.00
 ;"InsecurePrivateNetworkRequestsAllowed"=dword:00000000 ; Tommy -- "Remove obsolete policies" (2026-07-20)
 ;"PrivateNetworkAccessRestrictionsEnabled"=dword:00000000 ; Tommy -- "Remove obsolete policies" (2026-07-20)
 "ProtectedContentIdentifiersAllowed"=dword:00000000
-"RelatedWebsiteSetsEnabled"=dword:00000000
+;"RelatedWebsiteSetsEnabled"=dword:00000000 ; obsolete
 "NewTabPageAllowedBackgroundTypes"=dword:00000003
 "NewTabPageAppLauncherEnabled"=dword:00000000
 "NewTabPageBingChatEnabled"=dword:00000000
@@ -53,7 +53,7 @@ Windows Registry Editor Version 5.00
 "EdgeWorkspacesEnabled"=dword:00000000
 "EdgeSafeHostingExtensionEnabled"=dword:00000000
 "AIGenThemesEnabled"=dword:00000000
-"BasicAuthOverHttpEnable"=dword:00000000
+"BasicAuthOverHttpEnabled"=dword:00000000
 "AdditionalSearchBoxEnabled"=dword:00000000
 "AddressBarClipboardSuggestEnabled"=dword:00000000
 "AdditionalDnsQueryTypesEnabled"=dword:00000000
@@ -78,6 +78,7 @@ Windows Registry Editor Version 5.00
 "ConfigureOnlineTextToSpeech"=dword:00000000
 "ConfigureShare"=dword:00000001
 "CopilotAddressBarSuggestionsEnabled"=dword:00000000
+"CopilotCoworkToolActionsEnabled"=dword:00000000
 "CopilotNewTabPageEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultSensorsSetting"=dword:00000002
@@ -89,7 +90,7 @@ Windows Registry Editor Version 5.00
 "DynamicCodeSettings"=dword:00000001
 "Edge3PSerpTelemetryEnabled"=dword:00000000
 "EdgeAutofillMlEnabled"=dword:00000000
-"EdgeCollectionsEnabled"=dword:00000000
+;"EdgeCollectionsEnabled"=dword:00000000 ; obsolete
 "EdgeEDropEnabled"=dword:00000000
 "EdgeHistoryAISearchEnabled"=dword:00000000
 "EdgeReadingModeServiceBasedExtractionEnabled"=dword:00000000
@@ -144,7 +145,7 @@ Windows Registry Editor Version 5.00
 ;"RSAKeyUsageForLocalAnchorsEnabled"=dword:00000001 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "ReadAloudEnabled"=dword:00000000
 "RemoteDebuggingAllowed"=dword:00000000
-"RelatedMatchesCloudServiceEnabled"=dword:00000000
+;"RelatedMatchesCloudServiceEnabled"=dword:00000000 ; obsolete
 "ResolveNavigationErrorsUseWebService"=dword:00000000
 "RestrictCoreSharingOnRenderer"=dword:00000001
 "ScarewareBlockerSendDetectedSitesToSmartScreenEnabled"=dword:00000001
@@ -152,7 +153,7 @@ Windows Registry Editor Version 5.00
 "SearchSuggestEnabled"=dword:00000000
 "ShareBrowsingHistoryWithCopilotSearchAllowed"=dword:00000000
 "ShowAcrobatSubscriptionButton"=dword:00000000
-"ShowHistoryThumbnails"=dword:00000000
+;"ShowHistoryThumbnails"=dword:00000000 ; removed from Microsoft-Edge-Policies (2026-09-12)
 "ShowMicrosoftRewards"=dword:00000000
 "ShowRecommendationsEnabled"=dword:00000000
 "SilentPrintingEnabled"=dword:00000000
