@@ -61,3 +61,9 @@ Windows Registry Editor Version 5.00
 ; makes new tab page entirely blank
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\JavaScriptBlockedForUrls]
 "1"="ntp.msn.com"
+
+; this key is false by default, which allows other users or
+; programs to spy on your browsing. we fix that here:
+; https://support.microsoft.com/en-us/servicing/os/windows/docs/2025/04/access-check-enhancements-to-prevent-unauthorized-disclosure-of-file-paths
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies]
+"EnforceDirectoryChangeNotificationPermissionCheck"=dword:00000001

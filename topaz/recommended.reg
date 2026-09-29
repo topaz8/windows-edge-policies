@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; this file has policies recommended by me, are disabled or not set
+; in tommy's policies, but are separated from my personal policy in
+; case you do not want to use my personal policy registry file.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"ConfigureDoNotTrack"=dword:00000000
+"NetworkServiceSandboxEnabled"=dword:00000001
+
+; this key is false by default, which allows other users or
+; programs to spy on your browsing. we fix that here:
+; https://support.microsoft.com/en-us/servicing/os/windows/docs/2025/04/access-check-enhancements-to-prevent-unauthorized-disclosure-of-file-paths
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies]
+"EnforceDirectoryChangeNotificationPermissionCheck"=dword:00000001
