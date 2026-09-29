@@ -27,3 +27,4 @@ Some permission settings appear to not have associated keys for them, so if you 
 
 ## Credits
 A big thanks to [Tommy](https://github.com/TommyTran732) for [Microsoft-Edge-Policies](https://github.com/TommyTran732/Microsoft-Edge-Policies)!
+Thank you to [Asterisk](https://github.com/Ast3risk-ops) for notifying me of critical policies.
