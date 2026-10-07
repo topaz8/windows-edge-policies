@@ -25,6 +25,8 @@ Some keys do not seem to work, specifically `VideoCaptureAllowed` and `AudioCapt
 
 Some permission settings appear to not have associated keys for them, so if you like to block everything you will have to visit the permission page and unfortunately will have to manually toggle them.
 
+If you have `ProcessIsolationEnabled` set to true (and it is in these policies), PWA's may fail to launch.
+
 ## Credits
 A big thanks to [Tommy](https://github.com/TommyTran732) for [Microsoft-Edge-Policies](https://github.com/TommyTran732/Microsoft-Edge-Policies)!
 
