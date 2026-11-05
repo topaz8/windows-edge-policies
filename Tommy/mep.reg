@@ -51,7 +51,7 @@ Windows Registry Editor Version 5.00
 "NewTabPageQuickLinksEnabled"=dword:00000000
 "NewTabPageSearchBox"="redirect"
 "EdgeWorkspacesEnabled"=dword:00000000
-"EdgeSafeHostingExtensionEnabled"=dword:00000000
+;"EdgeSafeHostingExtensionEnabled"=dword:00000000 ; deprecated (2026-11-05)
 "AIGenThemesEnabled"=dword:00000000
 "BasicAuthOverHttpEnabled"=dword:00000000
 "AdditionalSearchBoxEnabled"=dword:00000000
@@ -66,8 +66,8 @@ Windows Registry Editor Version 5.00
 "AlternateErrorPagesEnabled"=dword:00000000
 "AudioSandboxEnabled"=dword:00000001
 "AutoLaunchProtocolsComponentEnabled"=dword:00000000
-"AutofillAddressEnabled"=dword:00000000
-"AutofillCreditCardEnabled"=dword:00000000
+;"AutofillAddressEnabled"=dword:00000000 ; deprecated (2026-11-05)
+;"AutofillCreditCardEnabled"=dword:00000000 ; deprecated (2026-11-05)
 "AutofillMembershipsEnabled"=dword:00000000
 ;"AutomaticHttpsDefault"=dword:00000002 ; missing from Microsoft-Edge-Policies (obsolete) (2026-04-08)
 "BlockThirdPartyCookies"=dword:00000001
@@ -96,8 +96,8 @@ Windows Registry Editor Version 5.00
 "EdgeReadingModeServiceBasedExtractionEnabled"=dword:00000000
 "EdgeEntraCopilotPageContext"=dword:00000000
 "EdgeShoppingAssistantEnabled"=dword:00000000
-"EdgeWalletCheckoutEnabled"=dword:00000000
-"EdgeWalletEtreeEnabled"=dword:00000000
+;"EdgeWalletCheckoutEnabled"=dword:00000000 ; deprecated (2026-11-05)
+;"EdgeWalletEtreeEnabled"=dword:00000000 ; deprecated (2026-11-05)
 "EditFavoritesEnabled"=dword:00000000
 "EnableOnlineRevocationChecks"=dword:00000001
 "EncryptedClientHelloEnabled"=dword:00000001
@@ -130,7 +130,7 @@ Windows Registry Editor Version 5.00
 "ProcessIsolationEnabled"=dword:00000001
 "NetworkPredictionOptions"=dword:00000002
 ;"NetworkServiceSandboxEnabled"=dword:00000001 ; Tommy -- "Consider setting NetworkServiceSandboxEnabled to true. [but] This setting causes Edge (or any Chromium browser for that matter) to occasionally lose cookies, so it is not enabled in my policies for now." (2026-07-07)
-"NewPDFReaderEnabled"=dword:00000000
+;"NewPDFReaderEnabled"=dword:00000000 ; deprecated (2026-11-05)
 "NewPDFReaderWebView2List"=dword:00000000
 "NonRemovableProfileEnabled"=dword:00000000
 "OriginKeyedProcessesEnabled"=dword:00000001
@@ -170,7 +170,7 @@ Windows Registry Editor Version 5.00
 "UploadFromPhoneEnabled"=dword:00000000
 "WebRtcLocalhostIpHandling"="DisableNonProxiedUdp"
 "VisualSearchEnabled"=dword:00000000
-"WalletDonationEnabled"=dword:00000000
+;"WalletDonationEnabled"=dword:00000000 ; deprecated (2026-11-05)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\CookiesBlockedForUrls]
 "1"="ntp.msn.com"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutomaticFullscreenBlockedForUrls]

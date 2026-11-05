@@ -8,6 +8,12 @@ Windows Registry Editor Version 5.00
 "ConfigureDoNotTrack"=dword:00000000
 "NetworkServiceSandboxEnabled"=dword:00000001
 
+; the following policies are new policies in edge versions 156+ and are not yet
+; set in Tommy's policies
+"RemixAvailability"=dword:00000000
+"BlueprintGWAAvailability"=dword:00000000
+"CopilotOnSensitiveContentEnabled"=dword:00000000
+
 ; this key is false by default, which allows other users or
 ; programs to spy on your browsing. we fix that here:
 ; https://support.microsoft.com/en-us/servicing/os/windows/docs/2025/04/access-check-enhancements-to-prevent-unauthorized-disclosure-of-file-paths
