@@ -1,8 +1,10 @@
 Windows Registry Editor Version 5.00
 
+;;
 ; this file has policies recommended by me, are disabled or not set
 ; in tommy's policies, but are separated from my personal policy in
 ; case you do not want to use my personal policy registry file.
+;;
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
 "ConfigureDoNotTrack"=dword:00000000
@@ -13,7 +15,21 @@ Windows Registry Editor Version 5.00
 "RemixAvailability"=dword:00000000
 "BlueprintGWAAvailability"=dword:00000000
 "CopilotOnSensitiveContentEnabled"=dword:00000000
+; AgentProfileEnabled is set to enabled as it creates and uses a profile
+; associated with an external ai agent (if you're using one) instead of using
+; your own profile, separating the browsing data
+; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/agentprofileenabled
+"AgentProfileEnabled"=dword:00000001
+"CommercialJourneysGetThingsDoneEnabled"=dword:00000000
 
+; it's required to create an empty allow list for this particular policy
+; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/copilotbrowseruseblocklist
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\CopilotBrowserUseAllowList]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\CopilotBrowserUseBlockList]
+"1"="*"
+
+;------------------------------------------------------------------------------
 ; this key is false by default, which allows other users or
 ; programs to spy on your browsing. we fix that here:
 ; https://support.microsoft.com/en-us/servicing/os/windows/docs/2025/04/access-check-enhancements-to-prevent-unauthorized-disclosure-of-file-paths
