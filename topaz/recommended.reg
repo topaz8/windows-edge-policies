@@ -21,6 +21,8 @@ Windows Registry Editor Version 5.00
 ; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/agentprofileenabled
 "AgentProfileEnabled"=dword:00000001
 "CommercialJourneysGetThingsDoneEnabled"=dword:00000000
+"ComponentUpdatesEnabled"=dword:00000001
+"ComponentUpdatesMode"=dword:00000000 ; AllComponentUpdates
 
 ; it's required to create an empty allow list for this particular policy
 ; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/copilotbrowseruseblocklist
