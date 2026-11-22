@@ -25,6 +25,7 @@ Windows Registry Editor Version 5.00
 "ComponentUpdatesMode"=dword:00000000 ; AllComponentUpdates
 "RemixBulkExtractionAllowed"=dword:00000000
 "RemixCustomRemixesAllowed"=dword:00000000
+"XSLTEnabled"=dword:00000000
 
 ; it's required to create an empty allow list for this particular policy
 ; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/copilotbrowseruseblocklist
